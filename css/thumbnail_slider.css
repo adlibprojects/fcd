@@ -1,0 +1,83 @@
+ul.ts_container{
+	list-style:none;
+	margin:0;
+	padding:0;
+	xwidth:300px;/*dot width times number of dots*/
+	margin:0px auto 120px 325px;
+	position:relative;
+	height:40px;
+}
+
+#collections_bracelets ul.ts_container {
+	margin:0px auto 120px 225px;
+}
+
+	
+
+#product_collections_rings ul.ts_container {
+	margin:0;
+}
+
+#collections_necklaces ul.ts_container{
+	margin:0px auto 120px 415px;
+
+}
+
+.product_collections .rings ul.ts_container {
+	margin:0;
+}
+
+.bridal_product ul.ts_container,
+.bridal_category ul.ts_container
+{
+	margin:0;
+}
+
+
+ul.ts_container li{
+	float:left;
+}
+ul.ts_container li a{
+	display:block;
+	width:40px;
+	height:40px;
+	outline:none;
+	padding:3px 3px;
+	xbackground:transparent url(../images/dot.png) no-repeat top center;
+}
+ul.ts_container li a:hover,
+ul.ts_container li.selected a{
+	background-position:50% -11px;
+}
+ul.ts_container li.ts_thumbnails{
+	display:none;
+	position:absolute;
+}
+ul.ts_container li.ts_thumbnails span{
+	background:transparent url(../images/triangle.png) no-repeat top center;
+	width:15px;
+	height:6px;
+	position:absolute;
+}
+.ts_preview_wrapper{
+	border:2px solid #fff;
+	overflow:hidden;
+	position:relative;
+	-moz-box-shadow:0px 0px 5px #999;
+	-webkit-box-shadow:0px 0px 5px #999;
+	box-shadow:0px 0px 5px #999;
+}
+ul.ts_preview{
+	position:absolute;
+	left:0px;
+	top:0px;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+ul.ts_preview li{
+	float:left;
+}
+ul.ts_preview li img{
+	display:block;
+}

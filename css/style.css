@@ -1,0 +1,946 @@
+body {margin:0; padding:0; background:#000000; font-family:Arial, Helvetica, sans-serif;}
+
+ul, h4, p, li {margin:0; padding:0;}
+
+img {
+	border:none;
+}
+
+/**Classes**/
+
+.float_left {
+	float:left;
+}
+
+.float_right {
+	float:right;
+}
+
+.clear {
+	clear:both;
+}
+
+.red {
+	color:#900303;
+}
+
+.font_family_garamond {
+	font-family:'Droid Serif', georgia,garamond,serif;
+	font-style:italic;
+	padding-bottom:6px;
+}
+
+.font_size_medium_garamond {
+	font-family:'Droid Serif', georgia,garamond,serif;
+	font-style:italic;
+	padding-bottom:6px;
+	font-size:18px;
+}
+
+#bridal_forHer .main_content p:first-child,
+#bridal .main_content p:first-child {
+	font-size:22px;
+	
+}
+
+.no_underline a {
+	text-decoration:none;
+}
+
+.no_underline a:link, 
+.no_underline a:visited, 
+.no_underline a:active 
+{
+	color:#950303;
+}
+
+#collections_rings .main_content .main_text p.price,
+#collections_earrings .main_content .main_text p.price,
+#collections_necklaces .main_content .main_text p.price,
+#collections_bracelets .main_content .main_text p.price
+{
+	
+	border-top:1px dotted #666666;
+	border-bottom:1px dotted #666666;
+	padding:3px 0;
+	color:#666666;
+	width:150px;
+	font-size:13px;
+}
+
+.price {
+	border-top:1px dotted #666666;
+	border-bottom:1px dotted #666666;
+	padding:3px 0;
+	color:#666666;
+	width:150px;
+	font-size:13px;
+}
+
+.text_line_height {
+	line-height:22px;	
+}
+
+.text_line_height_eternity {
+	line-height:22px;	
+	width:315px;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+.italic {
+	font-style:italic;
+}
+
+
+/****Bridal Product Pages***/
+
+.main_content.bridal_product .main_text {
+	width:365px;
+}
+
+.bridal_product {
+	background:#f5f7f8;
+}
+
+.main_content #collections_nav {
+	width:140px;
+	margin-left:50px;
+	margin-top:55px;
+}
+
+.main_content #collections_nav ul {
+	list-style:none;
+}
+
+.main_content #collections_nav a {
+	xcolor:#6a6868;
+	xcolor:#ffffff;
+	color:#6A6868;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:12px;
+	line-height:22px;
+}
+
+.main_content #collections_nav a:hover {
+	color:#950303;
+}
+
+
+/**Active Link **/
+#collections_rings .nav_container li.collections_rings a,
+#collections_earrings .nav_container li.collections_earrings a, 
+#collections_necklaces .nav_container li.collections_necklaces a,
+#collections_bracelets .nav_container li.collections_bracelets a, 
+#collections_stones .nav_container li.collections_stones a, 
+#bridal_forHer .nav_container li.bridal_forHer a,
+#bridal_forHim #collections_nav li.bridal_forHim a, 
+#service_customize .nav_container li.service_customize a, 
+#service_update .nav_container li.service_update a, 
+#service_contact .nav_container li.service_contact a, 
+#about_favi .nav_container li.about_favi a, 
+#about_civia .nav_container li.about_civia a 
+{
+	color:#950303;
+}
+
+#product_collections_rings #collections_nav li.product_collections_rings a,
+#product_collections_earrings #collections_nav li.product_collections_earrings a,
+#product_collections_necklaces #collections_nav li.product_collections_necklaces a,
+#product_collections_bracelets #collections_nav li.product_collections_bracelets a,
+
+#product_bridal_collections_rings #collections_nav li.product_collections_rings a,
+#product_bridal_collections_earrings #collections_nav li.product_collections_earrings a,
+#product_bridal_collections_necklaces #collections_nav li.product_collections_necklaces a,
+#product_bridal_collections_bracelets #collections_nav li.product_collections_bracelets a,
+
+#product_bridal_forHim_cufflinks #collections_nav li.product_bridal_forHim_cufflinks a,
+#product_bridal_forHim_tiepins #collections_nav li.product_bridal_forHim_tiepins a
+{
+	color:#950303;
+}
+
+#service_update_revitalize .services ul li.revitalize a,
+#service_update_reset .services ul li.reset a,
+#service_update_replace .services ul li.replace a,
+#service_update_restring .services ul li.restring a,
+#service_update_restore .services ul li.restore a,
+#service_update_appraisals .services ul li.appraisals a,
+#service_update_sizing .services ul li.sizing a,
+#service_update_purchase .services ul li.purchase a
+#service_contact .services ul li.contact a
+
+{
+	color:#950303;
+}
+
+#bridal_forHer_rings #collections_nav li.product_collections_rings a,
+#bridal_eternitybands #collections_nav li.product_collections_eternitybands a,
+#bridal_forHer_earrings #collections_nav li.product_collections_earrings a,
+#bridal_forHer_necklaces #collections_nav li.product_collections_necklaces a,
+#bridal_forHer_bracelets #collections_nav li.product_collections_bracelets a {
+	color:#950303;
+}
+
+
+/**End Active Page**/
+
+
+/**Structure**/
+
+#header {
+	margin-top:48px;
+	text-align:center;
+	position:relative;
+	z-index:55;
+}
+
+#container {
+	margin:0 auto;
+	width:1200px;
+}
+
+#main {
+	position:relative;
+	margin-top: -20px;
+}
+
+
+.main_content .main_text {
+	margin-right:60px;
+	width:250px;
+	font-size:12px;
+	line-height:17px;
+}
+
+.main_content .bridal_category.main_text {
+	/* width:325px; old size */
+	width:420px;
+	margin-left:165px;
+	margin-top:60px;
+}
+
+.main_content .four_cs.main_text {
+	/* width:325px; old size */
+	width:420px;
+	margin-left:530px;
+	margin-top:60px;
+}
+
+/**Page Backgrounds**/
+
+.main_content {
+	height:520px;
+	width:100%;
+	position:relative;
+}
+
+#home .main_content {
+	background:url(../images/main_bg_home.jpg) no-repeat;
+}
+
+#bridal_forHer .main_content {
+	background:url(../images/main_bg_bridal.jpg) no-repeat;
+}
+
+#bridal_forHer_rings .main_content {
+	background:url(../images/main_bg_bridal_product_rings.jpg) no-repeat;
+}
+
+#bridal_forHer_necklaces .main_content {
+	background:url(../images/main_bg_bridal_product_necklaces.jpg) no-repeat;
+}
+
+#bridal_forHer_bracelets .main_content {
+	background:url(../images/main_bg_bridal_product_bracelets.jpg) no-repeat;
+}
+
+#bridal_forHer_earrings .main_content {
+	background:url(../images/main_bg_bridal_product_earrings.jpg) no-repeat;
+}
+
+#bridal_forHim .main_content {
+	background:url(../images/main_bg_bridal_forHim.jpg) no-repeat;
+}
+
+#bridal_rings .main_content {
+	background:url(../images/main_bg_bridal_product_rings.jpg) no-repeat #f5f7f8;
+}
+
+
+#bridal_eternitybands .main_content {
+	background:url(../images/main_bg_eternityband.jpg) no-repeat #f5f7f8;
+}
+
+#service_customize .main_content {
+	background:url(../images/main_bg_customize_revised.jpg) no-repeat;
+}
+
+#service_customize_video .main_content {
+	background:url(../images/main_bg_customize_videoend.jpg) no-repeat;
+}
+
+#service_contact .main_content {
+	background:url(../images/main_bg_services_contact.jpg) no-repeat;
+}
+
+#collections_rings .main_content {
+	background:url(../images/main_bg_collections_rings.jpg) no-repeat;
+	position:relative;
+}
+
+#collections_earrings .main_content {
+	background:url(../images/main_bg_collections_earrings.jpg) no-repeat;
+}
+
+#collections_necklaces .main_content {
+	background:url(../images/main_bg_collections_necklaces.jpg) no-repeat;
+}
+
+#collections_bracelets .main_content {
+	background:url(../images/main_bg_collections_bracelets.jpg) no-repeat;
+}
+
+/*#collections_stones .main_content {
+	background:url(../images/main_bg_collections_stones_new.jpg) no-repeat;
+}*/
+
+#about_favi .main_content {
+	background:url(../images/main_bg_about_favi.jpg) no-repeat;
+}
+
+#about_civia .main_content {
+	background:url(../images/main_bg_about_civia.jpg) no-repeat;
+}
+
+#four_cs .main_content {
+	background:url(../images/main_bg_4c.jpg) no-repeat;
+}
+
+#four_cs_page .main_content {
+	background:url(../images/main_bg_fourcs.jpg) no-repeat;
+}
+
+.service_update.main_content {
+	background:url(../images/main_bg_services_update.jpg) no-repeat;
+}
+
+#customize_experience .main_content {background:url(../images/main_bg_customizeexperience_videostart.jpg) no-repeat;}
+
+
+/**End Page Backgrounds**/
+
+/**Home Page**/
+.home .main_content {
+	position:relative;
+}
+
+.home .main_text {
+	position:absolute;
+	top:435px;
+	left:530px;
+	color:#666767;
+	font-size:12px;
+	line-height:20px;
+}
+
+.home .button_figures {position:absolute; right:50px; bottom:0;}
+
+/***Stones Page***/
+
+.stones .main_text {
+	xwidth:1200px;
+	color:#ffffff;
+	position:absolute;
+	top:300px;
+	left:60px;
+	font-size:15px;
+	line-height:22px;
+	width:300px;
+}
+
+.stones_text {
+	width:456px;
+	margin:0 auto;
+	display:block;
+	padding-top:55px;
+}
+
+/**Bridal Page - Main**/
+
+#bridal_forHer .main_content .main_text, 
+#bridal_forHim .main_content .main_text 
+{
+	margin-top:80px;
+	color:#555555;
+}
+
+.main_content p.four_c_p {
+	margin-left:30px;
+	margin-top:16px;
+}
+
+ul.four_c_p {
+	margin-left:30px;
+	margin-top:16px;
+	list-style:none;
+	text-transform:uppercase;
+	font-size:13px;
+	list-style-position:outside;
+}
+
+ul.four_c_p li {
+	background-image:url(../images/triangle.jpg);
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	line-height: 27px;
+}
+
+ul.four_c_p a {
+	text-decoration:none;
+	color:#555555;
+}
+
+ul.four_c_p a:hover {
+	color:#900303;
+}
+
+.main_content p.four_c {
+	text-transform:uppercase;
+	font-size:20px;
+	line-height:22px;
+}
+
+/**End Bridal Page - Main**/
+
+/**Services - Customize Page - Main**/
+#service_customize .main_content .main_text {
+	margin-top:65px;
+	color:#ffffff;
+	line-height:22px;
+	width:250px;
+	margin-right:40px;
+}
+
+#service_customize .main_content .main_text p.service_customize {
+	font-size:14px;
+}
+
+#service_customize_video .main_content {position:relative;}
+
+#service_customize_video .main_content .customize_text {position:absolute; right:32px; top: 66px; z-index:10; text-align:justify; color:#ffffff; font-family:Arial, Helvetica, sans-serif; width:269px; font-style:normal; }
+#service_customize_video .main_content .button_figures {position:absolute; right:41px; bottom: 63px; z-index:10;}
+#service_customize_video .main_content .customize_text_first {font-size:15px; line-height:22px; margin-bottom:16px;}
+#service_customize_video .main_content .customize_text_second {font-size:12px; line-height:18px;}
+
+
+
+/** End Services - Customize Page - Main**/
+
+/**Services - Update Page - Main**/
+
+x.service_update.main_content {
+	background:#000000;
+}
+
+.service_update.main_content .main_text {
+	margin-top:70px;
+	width:520px;
+	color:#ffffff;
+}
+
+.service_update.main_content .main_text p.font_size_medium_garamond {
+	font-size:16px;
+	line-height:25px;
+}
+
+.service_update.main_content .main_text ul {
+	margin-left:15px;
+}
+
+.service_update.main_content .main_text li {
+	padding-bottom:5px;
+}
+
+.service_update.main_content .main_text span {
+	margin-top:25px;
+	display:block;
+	font-size:19px;
+}
+
+#slider1 {
+	width:575px;
+}
+
+.services_hover_wrapper li a {color:#ffffff; text-decoration:none;}
+
+x.services ul li a {
+	color:#ffffff;
+	text-decoration:none;
+}
+
+.services ul li a:hover {
+	color:#950303;
+}
+
+/* Direction nav styles (e.g. Next & Prev) */
+#service_update .nivo-directionNav {
+	position:relative;
+}
+
+#service_update .nivo-directionNav a {
+	position:absolute;
+	top:470px;
+	z-index:99;
+	cursor:pointer;
+	display:visible;
+	color:#6a6868;
+	font-size:12px;
+}
+#service_update .nivo-prevNav {
+	left:360px;
+}
+#service_update .nivo-nextNav {
+	right:100px;
+}
+
+/**End Services - Update Page - Main **/
+
+/***Services - Contact ***/
+.contact ul  {
+	margin-top:16px;
+	list-style:none;
+	font-size:13px;
+	list-style-position:outside;
+	list-style:none;
+	color:#555555;
+}
+
+.contact ul li a {
+	color:#555555;
+}
+
+.contact ul li {
+	margin-bottom:20px;	
+}
+
+.contact ul li.envelope {
+	background-image:url(../images/service_contact_mail_icon.png);
+	background-repeat: no-repeat;
+	padding-left: 65px;
+	line-height: 25px;
+}
+
+.contact ul li.phone {
+	background-image:url(../images/service_contact_phone_icon.png);
+	background-repeat: no-repeat;
+	padding-left: 65px;
+	line-height: 25px;
+}
+
+.contact ul li.computer {
+	background-image:url(../images/service_contact_computer_icon.png);
+	background-repeat: no-repeat;
+	padding-left: 65px;
+	line-height: 25px;
+}
+
+.contact.main_text {
+	margin-left:525px;
+	padding-top:60px;
+	width:615px;
+}
+
+.contact p.float_right {
+	width:300px;
+	padding-top:20px;
+	color:#555555;
+}
+
+/***About***/
+
+#about_favi .main_content .main_text,
+#about_civia .main_content .main_text 
+{
+	color:#50504f;
+	line-height:22px;
+	width:445px;
+	margin-left:90px;
+	padding-top:60px;
+}
+
+#about_favi .main_content .main_text img,
+#about_civia .main_content .main_text img
+{
+	padding-bottom:30px;
+}
+
+#about_favi .main_content .main_text p.service_customize,
+#about_civia .main_content .main_text p.service_customize
+{
+	font-size:14px;
+}
+
+
+/**Collections - Main**/
+#collections_rings .main_content .main_text, 
+#collections_earrings .main_content .main_text, 
+#collections_necklaces .main_content .main_text, 
+#collections_bracelets .main_content .main_text
+{
+	color:#ffffff;
+	width:745px;
+	padding-top:65px;
+	margin-left:420px;
+}
+
+#collections_rings .main_content .main_text p,
+#collections_earrings .main_content .main_text p,
+#collections_necklaces .main_content .main_text p,
+#collections_bracelets .main_content .main_text p
+{
+	font-size:16px;
+	margin-top:18px;
+	line-height:24px;
+}
+
+#collections_rings .main_content .main_text p.collections_rings,
+#collections_earrings .main_content .main_text p.collections_earrings,
+#collections_necklaces .main_content .main_text p.collections_necklaces,
+#collections_bracelets .main_content .main_text p.collections_bracelets
+{
+	font-size:18px;
+	line-height:24px;
+}
+
+#collections_rings .main_content .main_text {
+	margin-bottom:60px;
+}
+
+#collections_earrings .main_content .main_text {
+	margin-bottom:60px;
+}
+
+#collections_necklaces .main_content .main_text {
+	margin-bottom:60px;
+}
+
+#collections_bracelets .main_content .main_text {
+	margin-bottom:85px;
+}
+
+/**End Collections  - Main**/
+
+.main_content.bridal_main #collections_nav a{
+	xcolor:#6a6868;
+}
+
+/** Collection Product Pages **/
+
+.main_content.product_collections .main_text, 
+.main_content.product_collections_black .main_text {
+	width:365px;
+}
+
+.main_content.product_collections_black {
+	background:#000000;
+	position:relative;
+	color:#ffffff;
+}
+
+.main_content.product_collections {
+	background:#ffffff;
+	position:relative;
+	color:#ffffff;
+}
+
+.main_content.product_collections_black .collections_info {
+	color:#ffffff;
+}
+
+.main_content.product_collections  #collections_nav, 
+.main_content.product_collections_black  #collections_nav {
+	width:140px;
+	margin-left:50px;
+	xmargin-top:100px;
+}
+
+.main_content.product_collections  #collections_nav h3 {
+	margin-bottom:10px;
+}
+
+.main_content.product_collections  #collections_nav ul, 
+.main_content.product_collections_black  #collections_nav ul {
+	list-style:none;
+}
+
+.main_content.product_collections  #collections_nav a, 
+.main_content.product_collections_black  #collections_nav a {
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:12px;
+	line-height:22px;
+}
+
+.main_content.product_collections  #collections_nav a {
+	color:#6a6868;
+}
+
+.main_content.product_collections_black  #collections_nav a {
+	color:#ffffff;
+}
+
+.main_content.product_collections  #collections_nav.accordion h3 a, 
+.main_content.product_collections_black  #collections_nav.accordion h3 a {
+	xfont-size:14px;
+}
+
+.main_content.product_collections  #collections_nav.accordion h3 a:hover, 
+.main_content.product_collections_black  #collections_nav.accordion h3 a:hover {
+	color:#950303;
+}
+
+.main_content.product_collections #collections_nav a:hover, 
+.main_content.product_collections_black #collections_nav a:hover {
+	color:#950303;
+}
+
+a.rings_link {margin-top:15px; color:#950303; text-decoration:none;}
+a.rings_link:hover {text-decoration:underline;}
+
+
+.border {
+	border-bottom:1px dotted #6a6868;
+	border-top:1px dotted #6a6868;
+	padding:5px 0;
+	margin:9px 0 5px 0;
+}
+
+.product_text_italic {
+	font-style:italic;
+	margin-top:20px;
+	margin-bottom:20px;
+	font-size:11px;
+	color:#757575;
+}
+
+.product_text_number {
+	font-weight:bold;
+	font-size:11px;
+}
+
+.collections_info {
+	color:#555353;
+	margin-top:95px;
+	margin-right:90px;
+	padding-top:65px;
+}
+
+.product_info {
+	color:#555353;
+	margin-top:95px;
+	margin-right:90px;
+	padding-top:65px;
+}
+
+.product_name {
+	font-size:18px;
+	line-height:22px;
+}
+
+.collection_thumbnails_eternitybands {
+	margin-top:20px;
+}
+
+.collection_thumbnails {
+	margin-top:55px;
+}
+
+.collection_thumbnails_rings {
+	margin-top:15px;
+}
+
+.bridal_forHim_image {
+	margin-bottom:15px;
+}
+
+.bridal_eternityband_image {
+	margin-bottom:0px;
+}
+
+.accordion h3 {
+	margin-bottom:3px;
+	font-weight:normal;
+}
+
+/**End Collections Product Pages*/
+
+.main_text .item_image {
+	width:400px;
+}
+
+#bracelet_thumbnails, #rings_thumbnails, #earrings_thumbnails, #necklaces_thumbnails {
+	margin-top:28px;
+	margin-bottom:25px;
+}
+
+/**Customize Button**/
+
+.customize_button a {
+	position:absolute;
+	top:405px;
+	right:90px;
+}
+
+.customize_button a {
+	background:url(../images/button_customize.jpg) no-repeat;
+	xmargin-top:70px;
+	height:73px;
+	width:233px;
+	display:block;
+	xmargin-right:40px;
+	position:absolute;
+	top:15px;
+	right:15px;
+}
+
+/*
+.customize_button a:hover {
+	background:url(../images/button_customize_hover.jpg) no-repeat;
+}
+*/
+
+.customize_button_white a {
+	background:url(../images/button_customize_white.jpg) no-repeat;
+	xmargin-top:70px;
+	height:85px;
+	width:271px;
+	display:block;
+	position:absolute;
+	top:15px;
+	right:15px;
+}
+
+.customize_button_bridal {
+	position:absolute;
+	top:15px;
+	right:-1px;
+}
+
+.customize_button_whiteRegular {
+	position:absolute;
+	top:15px;
+	right:15px;
+}
+
+.customize_button_whiteRegular.customize_button_necklaces{
+	position:absolute;
+	top:405px;
+	right:90px;
+}
+
+/**End Customize Button**/
+
+#slider {
+	position:absolute;
+	top:0;
+	left:0;
+	height:520px;
+	width:1200px;
+}
+
+.slider_thumbnails {
+	background: url(../images/main_slider_thumbnail_bar.jpg) no-repeat;
+	height:10px;
+}
+
+.nav_bg {
+	height:160px;
+	background:#f9f8f8;
+	padding-top:15px;
+}
+
+.nav_container {
+	width:700px;
+	margin:0 auto;
+}
+
+.nav {
+	margin-left:99px;
+	text-align:center;
+}
+
+.nav.collections {
+	margin-left:0px;
+}
+
+.nav h4 {
+	font-family:"Times New Roman", Times, serif;
+	padding:0 0 4px 0;
+	border-bottom:1px dotted #000000;
+	color:#950303;
+	text-transform:uppercase;
+	margin-bottom:4px;
+}
+
+.nav li {
+	list-style:none;
+	text-transform:uppercase;
+	padding-bottom:1px;
+}
+
+.nav li a {
+	font-size:11px;
+	color:#555555;
+	text-decoration:none;
+}
+
+.nav li a:hover {
+	color:#950303;
+}
+.image_carousel {margin-bottom:20px;}
+/*Eternity Bands*/
+.eternitybands_seemorelink, a.rings_link { color:#757575; text-decoration:none; font-style:italic; }
+.eternitybands_seemorelink:hover, .rings_link:hover {text-decoration:underline; color:#950303;}
+#footer {
+	margin-top:15px;
+	margin-bottom:30px;
+}
+
+#footer p {
+	color:#ffffff;
+	text-align:center;
+	font-size:11px;
+	padding:0;
+	margin:0;
+}
+
+#footer img{
+	vertical-align:middle;
+}
+
+.four_cs_link {position:absolute; right:20px; bottom:16px;}
+
+/* Four C's Page */
+#four_cs-page .main_content p {color:#ffffff;}
+#four_cs_page .main_content .red {color:#fd0202;}
+
+#animation-container {width:1200px; height:520px;}
+.wrapper {font-family: "Times New Roman", Times, serif; font-size:11px; width:1200px; height:520px; position:relative; top:0px; left:0px;}
+
+.images img{display:none; position:absolute; left:3px; top:0px;}
+.text p{display:none; position:absolute; right:0px; top:75px; color:#ffffff; font-size:14px; line-height:18px; width:550px; text-align:justify; margin-right:30px;}
+.text .text-title {font-size:26px; color:#F00; display:block;}
+#text_main {color:#ffffff; position:relative; z-index:20; position:absolute; right:0px; top:100px; color:#ffffff; font-size:11px; width:550px; text-align:justify; margin-right:30px; font-family:"Times New Roman", Times, serif;}
+.text_main_big {font-size:32px; margin-bottom:15px;}
+.text_main_italic {font-family:Georgia, "Times New Roman", Times, serif; font-style:italic; font-size:16px; line-height:22px;}
+
+.circleBig {position:absolute; top:0px; left:0px; width:565px; height:565px;}
+.menu {height: 200px; left: 365px; position: absolute; top: 135px; width: 200px; z-index: 999;}
+a.cut, a.clarity, a.color, a.carat{ margin-bottom:10px; color:#fd0202; font-size:38px; text-decoration:none; display:block;}
+a.cut:hover, a.clarity:hover, a.color:hover, a.carat:hover {color:#ffffff; opacity:1.0;}
+
+.circle{margin-top:-88px; margin-left:-88px; width:176px; height:176px; position:absolute; left:0; top:0; background:url(../images/4cs-smalldiamond.png) no-repeat top left; z-index:10; opacity:0; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);}
